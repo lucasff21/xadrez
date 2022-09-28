@@ -1,6 +1,6 @@
 package boardgame;
 
-public class Position {
+public class Position { //CLASSE QUE REPRESENTA A POSIÇÃO NO TABULEIRO
 
 	private Integer row, column;
 
