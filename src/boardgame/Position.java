@@ -25,6 +25,11 @@ public class Position { //CLASSE QUE REPRESENTA A POSIÇÃO NO TABULEIRO
 		this.column = column;
 	}
 	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
+	
 	@Override
 	public String toString() {
 		return row + ", " + column;
